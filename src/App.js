@@ -1,10 +1,18 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello</header>
-      <footer></footer>
+      <div className="container">
+        <header className="App-header">MN Dictionary</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Magdalene Nsiah</small>
+        </footer>
+      </div>
     </div>
   );
 }
