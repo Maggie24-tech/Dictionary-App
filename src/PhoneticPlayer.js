@@ -1,5 +1,7 @@
 import React from "react";
 import "./Phonetic.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 export default function PhoneticPlayer(props) {
   function handleClick() {
@@ -15,7 +17,7 @@ export default function PhoneticPlayer(props) {
         aria-checked="false"
         onClick={handleClick}
       >
-        <i className="icon fas fa-volume-up"></i>
+        <FontAwesomeIcon icon={faVolumeHigh} />
       </button>
     </div>
   );

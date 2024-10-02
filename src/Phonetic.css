@@ -27,19 +27,19 @@
   display: inline-block;
 }
 
-.button {
+button {
   background-color: white;
   margin: 0;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 10px;
   font-size: 1.25rem;
-  color: #28537ec4;
+  color: #aa1111;
   transition: all 180ms ease-in-out;
 }
 
 button:hover {
-  background: #28537ec4;
+  background: #aa1111;
   color: white;
   border-radius: 5px;
 }
