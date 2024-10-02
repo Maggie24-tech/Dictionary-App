@@ -1,3 +1,11 @@
+body {
+  background: #a7bcb9;
+}
+
+a {
+  color: #aa1111;
+}
+
 .App-header {
   margin: 30px 0;
   text-align: center;
@@ -8,4 +16,15 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.App p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.App p .source {
+  text-decoration: underline;
+  color: black;
 }
