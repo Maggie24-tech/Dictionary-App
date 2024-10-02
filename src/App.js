@@ -21,19 +21,29 @@ export default function App() {
             href="https://github.com/Maggie24-tech"
             target="_blank"
             rel="noreferrer"
+            alt="Github"
           >
             Magdalene Nsiah
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/Maggie24-tech/React-Dictionary-App"
             target="_blank"
             rel="noreferrer"
+            alt="Github"
           >
-            open-sourced on Github
+            Github
           </a>{" "}
           and hosted on{" "}
-          <a href="https://reacweatherapp.netlify.app"> Netlify </a>
+          <a
+            href="https://reacweatherapp.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            alt="Netlify"
+          >
+            {" "}
+            Netlify{" "}
+          </a>
         </footer>
       </div>
     </div>

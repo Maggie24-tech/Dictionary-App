@@ -6,6 +6,11 @@ a {
   color: #aa1111;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
   text-align: center;
@@ -13,9 +18,11 @@ a {
   font-size: 32px;
 }
 
-.App-footer {
+.App footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 11px;
+  font-weight: 400;
 }
 
 .App p {
